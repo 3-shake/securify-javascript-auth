@@ -1,1 +1,1 @@
-# securif-javascript-auth
+# securify-javascript-auth
