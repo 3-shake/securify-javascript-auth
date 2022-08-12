@@ -2,9 +2,9 @@
   "name": "js-auth-test",
   "version": "1.0.0",
   "description": "JavaScript認証のデバッグ環境",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "cd src/ && node index.js"
   },
   "engines": {
     "node": "16.x"
@@ -17,5 +17,9 @@
     "jsdom": "^19.0.0",
     "set-cookie-parser": "^2.4.8",
     "tough-cookie": "^4.0.0"
-  }
+  },
+  "workspaces": [
+    ".",
+    "./src/*"
+  ]
 }
