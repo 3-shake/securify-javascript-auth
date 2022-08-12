@@ -2,7 +2,7 @@
     // エントリポイント
     const fs = require('fs')
     try {
-        const requestSourceCode = fs.readFileSync("./test.js", 'utf8')
+        const requestSourceCode = fs.readFileSync("./src/auth.js", 'utf8')
         const responseHeaders = await eval(`
         ${requestSourceCode}
         (async() => {
