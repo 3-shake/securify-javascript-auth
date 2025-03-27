@@ -24,7 +24,7 @@ $ docker run --rm js-auth-test
 ```
 
 自分のホスト機のNode.jsを使用する場合
-Node.jsのバージョンは16で動作させてください
+Node.jsのバージョンは20で動作させてください
 ```
 $ npm i
 $ npm run test
