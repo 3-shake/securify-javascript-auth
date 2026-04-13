@@ -12,8 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
-    "axios-cookiejar-support": "^4.0.2",
     "jsdom": "^19.0.0",
     "set-cookie-parser": "^2.4.8",
     "tough-cookie": "^4.0.0"
